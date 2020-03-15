@@ -10,8 +10,8 @@ class Dashboard(Base):
                              external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
 
         self.app.layout = html.Div([
-            html.H1('Central Yorkshire Scouts Uptake and IMD Decile Map'),
-            html.Iframe(id='map', srcDoc=open("Example Output/central_yorkshire_uptake_imd_map.html", 'r').read(), width="100%", height="600")
+            html.H1('Devon Scouts Uptake and IMD Decile Map'),
+            html.Iframe(id='map', srcDoc=open("Example Output/pcon_imd_uptake_map.html", 'r').read(), width="100%", height="600")
         ])
 
         self.input_layout = html.Div([
